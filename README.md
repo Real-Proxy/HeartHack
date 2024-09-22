@@ -8,19 +8,19 @@ The **HeartHack DIY ECG Machine** is a simple and affordable solution for monito
 - Real-time heart monitoring
 - Use the AD8232 ECG module and a single operational amplifier (Op-Amp) for accurate heart signal readings.
   
-![Screenshot](HeartHack/src/images/screenshot.png)
+![Screenshot](src/images/screenshot.png)
 
 *Figure 1: ECG Machine interface displaying heart rate.*
 
 ## Understanding ECG
 In general terms, lets look at what an ECG is representing and how we're able to sense it. The ECG is separated into two basic Intervals, the PR Interval and the QT Interval, described below.
 
-![Waves and Internals](HeartHack/src/images/EKG_Complex_en.svg.png)
+![Waves and Internals](src/images/EKG_Complex_en.svg.png)
 
 *Figure 2: Waves and Internals of a heart beat.*
 
 
-![Heart Diagram](HeartHack/src/images/Heart_diagram-en.svg.png)
+![Heart Diagram](src/images/Heart_diagram-en.svg.png)
 
 *Figure 3: Heart diagram.*
 
@@ -35,28 +35,28 @@ The QT interval covers the contraction of the ventricles, the hallmark of which 
 ### AD8232 ECG Module
 - Preferred ECG device for this project is the AD8232 breakout board.
   
-![AD8232 Module](HeartHack/src/images/AD-8232-Heart-Monitor.jpg)
+![AD8232 Module](src/images/AD-8232-Heart-Monitor.jpg)
 
 *Figure 4: AD8232 Module .*
 
 ### Battery Managment System
 - Preferred BMS device for this project.
 
-![BMS Module](HeartHack/src/images/BMS.jpg)
+![BMS Module](src/images/BMS.jpg)
 
 *Figure 5: BMS Module .*
 
 ### Disposable Electrodes
 - Preferred Electordes device for this project.
 
-![electrodes](HeartHack/src/images/ecg-electrode.png)
+![electrodes](src/images/ecg-electrode.png)
 
 *Figure 6: Electrodes .*
 
 ### Disposable Electrodes Leads
 - Preferred leads device for this project.
 
-![electrodes lead](HeartHack/src/images/wires.jpg)
+![electrodes lead](src/images/wires.jpg)
 
 *Figure 7: Electrodes Leads .*
 
@@ -65,7 +65,7 @@ The QT interval covers the contraction of the ventricles, the hallmark of which 
 ### Circuit Diagram
 
 
-![Circuit Diagram](HeartHack/src/images/CIrcuit.jpg)
+![Circuit Diagram](src/images/CIrcuit.jpg)
 
 *Figure 8: Final Circuit .*
 
@@ -81,6 +81,6 @@ Place the sensor pads as close to the heart as possible for optimal measurements
 | Blue        | LA (Left Arm)  |
 | Red         | RL (Right Leg) |
 
-![Sensor Placement](HeartHack/src/images/body.png)
+![Sensor Placement](src/images/body.png)
 
 *Figure 9: Sensor Placement.*
